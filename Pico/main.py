@@ -17,7 +17,9 @@ def startPirMotion():
 
 
 def captureImage():
-    yield 1
+    # toDo : 이미지를 촬영하여 넘겨줌
+    for i in range(0, 3):
+        yield 1
 
 
 def sendImage(image):
